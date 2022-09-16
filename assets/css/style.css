@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Nabla&family=Rampart+One&family=Reem+Kufi+Fun:wght@400;500;600;700&display=swap");
+
+i {
+  color: #9ad50f;
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-right: 95px;
+}
+h1 {
+  font-family: "Rampart One", cursive;
+  color: #ffffff;
+  margin-right: 15px;
+}
+img {
+  width: 40px;
+  height: 40px;
+  margin-top: 4px;
+  margin-left: 5px;
+}
+*,
+html,
+body,
+p {
+  box-sizing: border-box;
+  font-family: "Reem Kufi Fun", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin-top: 10%;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.calc-container {
+  display: grid;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.dot {
+  grid-column: span 2;
+}
+
+.equal {
+  grid-row: span 2;
+}
+
+#buttons-container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  text-align: center;
+}
+
+#input {
+  width: 100%;
+  padding-right: 10px;
+  font-size: 3em;
+  text-align: right;
+  height: 2em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #000000;
+  background-color: #ffffff;
+  transition: all 0.3s ease-in;
+}
+#logo {
+  background-color: #c10f0f;
+  height: 53px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+  border: 0.3px solid rgba(251, 253, 255, 0.171);
+}
+
+.btn-num {
+  background-color: #ffffff;
+  color: #586275;
+  border: 0.5px solid #e0e3e9;
+}
+
+.btn-num:hover {
+  background-color: #85ba0c;
+  transform: scale(1.07);
+  z-index: 10;
+}
+
+.btn-operator {
+  background-color: #c10f0f;
+  color: #ffffff;
+}
+
+.btn-operator:hover {
+  background-color: #730909 !important;
+}
+
+.equal {
+  background-color: #9ad50f;
+}
