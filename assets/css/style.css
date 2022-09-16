@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nabla&family=Rampart+One&family=Reem+Kufi+Fun:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nabla&family=Rampart+One&family=Reggae+One&display=swap");
 
 i {
   color: #9ad50f;
@@ -22,7 +22,7 @@ html,
 body,
 p {
   box-sizing: border-box;
-  font-family: "Reem Kufi Fun", sans-serif;
+  font-family: "Reggae One", cursive;
   margin: 0;
   padding: 0;
 }
@@ -61,13 +61,13 @@ body {
 #input {
   width: 100%;
   padding-right: 10px;
-  font-size: 3em;
+  font-size: 2.5em;
   text-align: right;
   height: 2em;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  color: #000000;
+  color: #586275;
   background-color: #ffffff;
   transition: all 0.3s ease-in;
 }
