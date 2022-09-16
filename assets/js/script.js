@@ -1,11 +1,17 @@
-const inputField = document.getElementById("input");
+function insertNum(element) {
+  document.getElementById("input").innerHTML += element;
+}
+function equalTo() {
+  let result = eval(document.getElementById("input").innerHTML);
+  document.getElementById("input").innerHTML = result;
+}
 
-const insertNum = (num) => (inputField.textContent += num);
-
-const equalTo = () => (inputField.textContent ? (inputField.textContent = eval(inputField.textContent)) : false);
-
-const clearInput = () => (inputField.textContent = "");
-
-const eraseNum = () => (inputField.textContent = inputField.textContent.substring(0, inputField.textContent.length - 1));
+function clearInput() {
+  document.getElementById("input").innerHTML = "";
+}
+function eraseNum() {
+  let input = document.getElementById("input");
+  input.innerHTML = input.innerHTML.substring(0, input.innerHTML.length - 1);
+}
 
 let credits = "©Satu";
